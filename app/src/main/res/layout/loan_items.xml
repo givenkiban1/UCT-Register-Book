@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:padding="15dp"
+    android:id="@+id/RelativeLayout2"
+    >
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/image2"
+        android:src="@mipmap/ic_launcher"
+        android:scaleType="centerCrop"
+        android:padding="0dp"
+        />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/image2"
+        android:orientation="vertical"
+        >
+
+
+
+        <TextView
+            android:id="@+id/student_Name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="17dp"
+            android:layout_toRightOf="@+id/image"
+            android:text="Student No."
+            android:textSize="20dp"
+            />
+
+        <TextView
+            android:id="@+id/txtLoanOut"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="17dp"
+            android:layout_toRightOf="@+id/image"
+            android:text="Loan Out Date:"
+            android:textSize="20dp"
+            android:layout_centerVertical="true"
+            />
+
+        <TextView
+            android:id="@+id/txtLoanIn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="17dp"
+            android:layout_toRightOf="@+id/image"
+            android:text="Return Date:"
+            android:textSize="20dp"
+            android:layout_centerVertical="true"
+            />
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+</RelativeLayout>

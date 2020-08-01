@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ManageLoans"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    >
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <ImageButton
+            android:layout_width="33dp"
+            android:layout_height="38dp"
+            android:layout_gravity="right"
+            android:padding="0dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/up"
+            android:id="@+id/toggler"
+
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="40dp"
+            android:id="@+id/addUserGroup"
+            android:orientation="vertical">
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="20dp"
+                >
+
+                <EditText
+                    android:layout_width="220dp"
+                    android:layout_height="wrap_content"
+                    android:inputType="text"
+                    android:hint="Student Number"
+                    android:id="@+id/loanStudentNo"
+                    />
+
+                <ImageButton
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="25dp"
+                    android:padding="0dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/scan3"
+                    android:id="@+id/scanID"
+                    />
+
+
+
+            </LinearLayout>
+
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/loanItems">
+            </Spinner>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="LOAN OUT DATE:"
+                android:id="@+id/loanOutDate"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:textAlignment="textEnd"
+                />
+
+            <Button
+                android:id="@+id/btnMakeLoan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="CREATE LOAN"
+                />
+
+
+        </LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/recycler_view_layout2"
+            android:orientation="horizontal"
+            >
+
+        </androidx.recyclerview.widget.RecyclerView>
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "675819860795",
+    "firebase_url": "https://uctregisterbookapp.firebaseio.com",
+    "project_id": "uctregisterbookapp",
+    "storage_bucket": "uctregisterbookapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:675819860795:android:368f0d82ecdbc325",
+        "android_client_info": {
+          "package_name": "com.example.uctregisterbookapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "675819860795-t89f5d393m5d6fu5j4g98ifd9v3h3h13.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.uctregisterbookapp",
+            "certificate_hash": "eb0c2e542af99f3700667b44d5e3e0b4758be2ae"
+          }
+        },
+        {
+          "client_id": "675819860795-4ano5j6k3rorbvjej2f8eo5dojtt7ij3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDlP38at8FUP589HR8qNlEv09SOrax5vAg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "675819860795-4ano5j6k3rorbvjej2f8eo5dojtt7ij3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
